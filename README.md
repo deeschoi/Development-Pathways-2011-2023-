@@ -30,6 +30,16 @@ The analysis emphasizes visual exploration and interpretation rather than causal
 
 ---
 
+## Tools and Libraries
+<a href="https://www.python.org"><img src="https://github.com/user-attachments/assets/b2208695-3b7f-4507-9c8d-02a14f07341d" width="150" height = "70" alt="Python" /></a>
+<a href="https://pandas.pydata.org"><img src="https://github.com/user-attachments/assets/38500205-8d85-4b46-8b2b-9222a24c611c" width="150" height = "70" alt="pandas" /></a>
+<a href="https://matplotlib.org"><img src="https://github.com/user-attachments/assets/06175adf-fa77-4969-abda-7b181667bb79" width="150" height = "70" alt="matplotlib" /></a>
+<a href="https://seaborn.pydata.org"><img src="https://github.com/user-attachments/assets/e090b466-3c57-4bc5-83c0-1048b7fc67f4" width="150" height = "70" alt="seaborn" /></a>
+<a href="https://plotly.com/python/"><img src="https://github.com/user-attachments/assets/7e7ccd3a-5667-46cc-8778-180396e01c29" width="150" height = "70" alt="Plotly" /></a>
+<a href = "https://jupyter.org/"><img src = "https://github.com/user-attachments/assets/7ed802c0-b5c3-4a27-89ec-f7bad3901830" width = "150" height = "70" alt = "Jupyter" /><a>
+
+---
+
 ## Data Sources
 This project uses publicly available international datasets from **Our World in Data**, which compiles and harmonizes data from institutions including the World Bank and the United Nations.
 
@@ -50,8 +60,7 @@ All figures and interactive components will render automatically.
 
 ---
 
-## Methods and Tools
-### Data Sources and Preparation  
+## Data Sources and Preparation  
 To prepare for the analysis, the following steps were performed:
 - Cleaning and filtering country-level time series data
 - Harmonizing country identifiers across datasets
@@ -61,39 +70,6 @@ To prepare for the analysis, the following steps were performed:
 - Accounting for differences in country size by computing population-weighted global life expectancy trends
 
 Country coverage varies across analyses due to differences in data availability by indicator and year.
-
-### Tools and Libraries
-<div align="center">
-  <table cellpadding="0" cellspacing="0">
-    <tr>
-      <td align="center">
-        <img width="120" alt="python_logo"
-             src="https://github.com/user-attachments/assets/5c41857a-1651-445a-a16e-1e7015fca7ac" />
-      </td>
-      <td align="center">
-        <img width="120" alt="pandas_logo"
-             src="https://github.com/user-attachments/assets/e1977ef0-d99c-4131-b46c-f70d37e9e968" />
-      </td>
-      <td align="center">
-        <img width="120" alt="matplotlib_logo"
-             src="https://github.com/user-attachments/assets/f8d3c767-eb70-471e-aaaa-bea278712c7d" />
-      </td>
-      <td align="center">
-        <img width="120" alt="seaborn_logo"
-             src="https://github.com/user-attachments/assets/5001879f-bbeb-4108-b781-baeafd11d1e9" />
-      </td>
-      <td align="center">
-        <img width="120" alt="plotly_logo"
-             src="https://github.com/user-attachments/assets/4e6ff38b-861d-4b89-a747-3400d24dbb85" />
-      </td>
-      <td align="center">
-        <img width="120" alt="jupyter_logo"
-             src="https://github.com/user-attachments/assets/d31433ad-b9a7-4bb2-aedd-cf916e8c98fd" />
-      </td>
-    </tr>
-  </table>
-</div>
-
 
 ---
 
