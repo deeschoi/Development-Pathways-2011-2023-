@@ -12,7 +12,7 @@ How are poverty rates and life expectancy associated with economic capacity acro
 - `global_dev_viz.ipynb`: Main analysis notebook with narrative, code, and figures  
 - `global_dev_viz.html`: Rendered HTML version of the notebook  
 - `data/`: Folder containing all source datasets  
-- `Project_Slide_Deck.pdf`: Slide deck for the final presentation  
+- `project_presentation.pdf`: Slide deck for the final presentation  
 
 ---
 
