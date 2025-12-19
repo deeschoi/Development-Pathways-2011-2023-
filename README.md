@@ -1,9 +1,14 @@
 # Development Pathways (2011–2023): Poverty, Life Expectancy, Economic Capacity, and Renewable Electricity
+<div align = "center">
+  
+  ![renewable_energy](https://github.com/user-attachments/assets/c9310897-9668-4992-834b-49ef93abb04d)
+
+</div>
 
 ## Project Overview
 This project explores global development patterns from 2000–2023 using publicly available data from the World Bank, United Nations, and related sources. It examines relationships between economic capacity, poverty, life expectancy, renewable energy consumption, and population change across countries and over time.
 
-The analysis emphasizes visual exploration and interpretation rather than causal inference, using a combination of exploratory analysis, results-driven visualizations, and an interactive mini-dashboard. The primary goal is to communicate complex global trends clearly and effectively through well-designed, theory-informed data visualizations grounded in storytelling and visual perception principles.  
+The analysis emphasizes visual exploration and interpretation rather than causal inference, using a combination of exploratory analysis, results driven visualizations, and an interactive mini dashboard. The primary goal is to communicate complex global trends clearly and effectively through well designed, theory informed data visualizations grounded in storytelling and visual perception principles.  
 
 ## Research Question
 How are poverty rates and life expectancy associated with economic capacity across countries over time, and how does renewable energy adoption vary across these development pathways?
@@ -22,30 +27,11 @@ How are poverty rates and life expectancy associated with economic capacity acro
 ## Data Sources
 This project uses publicly available international datasets from **Our World in Data**, which compiles and harmonizes data from institutions including the World Bank and the United Nations. All datasets were accessed in **December 2025**.
 
-- **Population Estimates and Projections**  
-  Source: Our World in Data (United Nations World Population Prospects)  
-  URL: https://ourworldindata.org/grapher/population-with-un-projections  
-  Description: Total population by country and year, including historical estimates and UN projections.  
-
-- **Life Expectancy at Birth**  
-  Source: Our World in Data (Human Mortality Database & UN World Population Prospects)  
-  URL: https://ourworldindata.org/grapher/life-expectancy-hmd-unwpp  
-  Description: Life expectancy at birth for the total population by country and year.  
-
-- **Renewable Energy Consumption**  
-  Source: Our World in Data  
-  URL: https://ourworldindata.org/grapher/modern-renewable-energy-consumption  
-  Description: Electricity generation from modern renewable sources by country and year.  
-
-- **GDP per Capita (PPP)**  
-  Source: Our World in Data (World Bank)  
-  URL: https://ourworldindata.org/grapher/gdp-per-capita-worldbank  
-  Description: Gross domestic product per capita adjusted for purchasing power parity, constant international dollars.  
-
-- **Share of Population Living in Extreme Poverty**  
-  Source: Our World in Data (World Bank)  
-  URL: https://ourworldindata.org/explorers/poverty-explorer  
-  Description: Percentage of the population living below the international extreme poverty line (approximately $3 per day, PPP-adjusted).  
+- Population estimates and projections (UN World Population Prospects)
+- Life expectancy at birth (Human Mortality Database & UN WPP)  
+- GDP per capita (adjusted, World Bank)
+- Share of population living in extreme poverty (World Bank)
+- Modern renewable electricity consumption
 
 ---
 
@@ -62,8 +48,6 @@ All figures and interactive components will render automatically.
 ### Data Sources and Preparation  
 This project integrates muliple global datasets from the World Bank, United Nations, and related sources covering economic, demographic, health, poverty, and energy indicators from 2000-2023. Data preparation steps included:  
 
-This project integrates multiple global datasets from the World Bank, United Nations, and related sources covering economic, demographic, health, poverty, and energy indicators from 2000–2023. Data preparation steps included:  
-
 - Cleaning and filtering country-level time series data
 - Harmonizing country identifiers across datasets
 - Reshaping datasets into tidy formats suitable for visualization
@@ -72,9 +56,6 @@ This project integrates multiple global datasets from the World Bank, United Nat
 - Accounting for differences in country size by computing population-weighted global life expectancy trends
 
 Country coverage varies across analyses due to differences in data availability by indicator and year.
-
-### Analysis Strategy
-The analysis emphasizes descriptive and exploratory methods rather than causal inference or prediction. Visual exploration is used to understand distributions, trends, and variability across countries and time, followed by results-driven visualizations that highlight key global development patterns. This approach allows for meaningful interpretation of multivariate relationships while avoiding overstatement of observational data.
 
 ### Tools and Libraries
 - Python – primary programming language
@@ -86,7 +67,7 @@ The analysis emphasizes descriptive and exploratory methods rather than causal i
 ---
 
 ## Visualization Approach
-## Design and Accessibility
+### Design and Accessibility
 All visualizations are designed with clarity, perception, and accessibility as core priorities. In particular:
 - Color blind safe palettes (e.g., Viridis) are used throughout
 - Sufficient contrast is maintained for readability
@@ -104,15 +85,11 @@ Visualizations are embedded within a structured narrative that progresses from b
 ---
 
 ## Key Takeaways
-- Economic capacity, poverty reduction, and life expectancy are strongly linked
-  - Countries with lower poverty rates tend to achieve higher life expectancy, with higher-income countries clustering at low poverty and high health outcomes
-- Economic growth supports health improvements but does not ensure uniform outcomes
-  - Countries with similar GDP per capita often exhibit markedly different life expectancy, highlighting heterogeneity in development pathways
-- Renewable electricity availability per capita generally increases with income, but adoption varies widely among countries at similar income levels, reflecting differences in policy, energy resources, and development priorities
-- Renewable energy is associated with broader development progress rather than acting as a direct driver of population health
-  - Higher life expectancy often coincides with greater renewable electricity availability, but the relationship is diffuse
-
-Overall, development trajectories are highly heterogeneous, underscoring the importance of examining economic, health, poverty, population, and energy indicators together rather than in isolation.
+- **Economic capacity, poverty reduction, and life expectancy are strongly linked**, with higher-income countries clustering at low poverty and high health outcomes.
+- **Economic growth supports health improvements but does not ensure uniform outcomes**, as countries with similar GDP per capita often exhibit markedly different life expectancy.
+- **Renewable electricity availability per capita generally increases with income**, but adoption varies widely among countries at similar income levels.
+- **Renewable energy is associated with broader development progress rather than acting as a direct driver of population health**, with a positive but diffuse relationship to life expectancy.
+- **Overall development trajectories are highly heterogeneous**, reinforcing the importance of examining multiple indicators together.
 
 ---
 
