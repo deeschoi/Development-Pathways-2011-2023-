@@ -63,11 +63,37 @@ To prepare for the analysis, the following steps were performed:
 Country coverage varies across analyses due to differences in data availability by indicator and year.
 
 ### Tools and Libraries
-- Python: primary programming language
-- pandas: data cleaning, transformation, merging, aggregation, and weighting
-- matplotlib & seaborn: static, publication-quality visualizations
-- plotly: interactive, user-driven exploratory visualizations and mini-dashboard components
-- Jupyter Notebook: reproducible environment combining code, visual output, and narrative markdown
+<div align="center">
+  <table cellpadding="0" cellspacing="0">
+    <tr>
+      <td align="center">
+        <img width="120" alt="python_logo"
+             src="https://github.com/user-attachments/assets/5c41857a-1651-445a-a16e-1e7015fca7ac" />
+      </td>
+      <td align="center">
+        <img width="120" alt="pandas_logo"
+             src="https://github.com/user-attachments/assets/e1977ef0-d99c-4131-b46c-f70d37e9e968" />
+      </td>
+      <td align="center">
+        <img width="120" alt="matplotlib_logo"
+             src="https://github.com/user-attachments/assets/f8d3c767-eb70-471e-aaaa-bea278712c7d" />
+      </td>
+      <td align="center">
+        <img width="120" alt="seaborn_logo"
+             src="https://github.com/user-attachments/assets/5001879f-bbeb-4108-b781-baeafd11d1e9" />
+      </td>
+      <td align="center">
+        <img width="120" alt="plotly_logo"
+             src="https://github.com/user-attachments/assets/4e6ff38b-861d-4b89-a747-3400d24dbb85" />
+      </td>
+      <td align="center">
+        <img width="120" alt="jupyter_logo"
+             src="https://github.com/user-attachments/assets/d31433ad-b9a7-4bb2-aedd-cf916e8c98fd" />
+      </td>
+    </tr>
+  </table>
+</div>
+
 
 ---
 
@@ -96,6 +122,3 @@ Visualizations are embedded within a structured narrative that progresses from b
 - **Overall development trajectories are highly heterogeneous**, reinforcing the importance of examining multiple indicators together
 
 ---
-
-## AI Assistance Disclosure
-AI tools were used to assist with structuring the order of information and minor debugging in animation controls and layout to ensure proper rendering in HTML. All analysis decisions, interpretations, and final visualizations were independently completed by the author.
