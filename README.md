@@ -1,8 +1,11 @@
 # Development Pathways (2011–2023): Poverty, Life Expectancy, Economic Capacity, and Renewable Electricity
 <div align = "center">
-  
-  ![renewable_energy](https://github.com/user-attachments/assets/c9310897-9668-4992-834b-49ef93abb04d)
-
+  <img 
+    width="695" 
+    height="493" 
+    alt="animation_screenshot" 
+    src="https://github.com/user-attachments/assets/eee73dc6-e6eb-4eab-9a7e-072f4f6d4aee" 
+  />
 </div>
 
 ## Project Overview
