@@ -1,4 +1,4 @@
-# DATS 2102 Final Project
+# Development Pathways (2011–2023): Poverty, Life Expectancy, Economic Capacity, and Renewable Electricity
 
 ## Project Overview
 This project examines global development patterns from 2000–2023, focusing on relationships between economic capacity, poverty, life expectancy, renewable energy use, and population. The analysis emphasizes visual exploration and interpretation rather than causal inference, using a combination of exploratory analysis, results-driven visualizations, and an interactive mini-dashboard.
@@ -47,7 +47,7 @@ This project uses publicly available international datasets from **Our World in 
 ---
 
 ## How to Run
-1. Open `Final_Project.ipynb` in Jupyter.  
+1. Open `global_dev_viz.ipynb` in Jupyter or VS Code.  
 2. Ensure all CSV files are located in the `data/` directory.  
 3. Restart the kernel and run all cells from top to bottom.  
 
@@ -64,4 +64,4 @@ All figures and interactive components will render automatically.
 ---
 
 ## AI Assistance Disclosure
-AI tools were used to assist with structuring the overall organization of the project, including the order of sections and the flow of information presented to the audience. AI assistance was also used for minor debugging related to the interactive Plotly-based dashboard, including adjustments to animation controls and figure layout to ensure proper rendering in HTML. All analysis decisions, interpretations, and final visualizations were independently completed by the author.
+AI tools were used to assist with structuring the order of information and minor debugging in animation controls and layout to ensure proper rendering in HTML. All analysis decisions, interpretations, and final visualizations were independently completed by the author.
