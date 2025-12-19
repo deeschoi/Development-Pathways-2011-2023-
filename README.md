@@ -1,7 +1,9 @@
 # Development Pathways (2011–2023): Poverty, Life Expectancy, Economic Capacity, and Renewable Electricity
 
 ## Project Overview
-This project examines global development patterns from 2000–2023, focusing on relationships between economic capacity, poverty, life expectancy, renewable energy use, and population. The analysis emphasizes visual exploration and interpretation rather than causal inference, using a combination of exploratory analysis, results-driven visualizations, and an interactive mini-dashboard.
+This project explores global development patterns from 2000–2023 using publicly available data from the World Bank, United Nations, and related sources. It examines relationships between economic capacity, poverty, life expectancy, renewable energy consumption, and population change across countries and over time.
+
+The analysis emphasizes visual exploration and interpretation rather than causal inference, using a combination of exploratory analysis, results-driven visualizations, and an interactive mini-dashboard. The primary goal is to communicate complex global trends clearly and effectively through well-designed, theory-informed data visualizations grounded in storytelling and visual perception principles.  
 
 ## Research Question
 How are poverty rates and life expectancy associated with economic capacity across countries over time, and how does renewable energy adoption vary across these development pathways?
@@ -10,7 +12,8 @@ How are poverty rates and life expectancy associated with economic capacity acro
 
 ## Files Included
 - `global_dev_viz.ipynb`: Main analysis notebook with narrative, code, and figures  
-- `global_dev_viz.html`: Rendered HTML version of the notebook  
+- `global_dev_viz.html`: Rendered HTML version of the notebook
+- `global_dev_viz.qmd`: QMD file rendered from quarto
 - `data/`: Folder containing all source datasets  
 - `project_presentation.pdf`: Slide deck for the final presentation  
 
@@ -55,11 +58,61 @@ All figures and interactive components will render automatically.
 
 ---
 
-## Notes on Methods
-- Global life expectancy trends are computed as population-weighted averages to account for differences in country size.  
-- Country coverage varies across analyses due to differences in data availability across indicators and years.  
-- Interactive components use Plotly and are designed for exploratory, user-driven analysis.  
-- All visualizations use color-blind–safe palettes (e.g., Viridis), sufficient contrast, and do not rely on color alone to convey information.
+## Methods and Tools
+### Data Sources and Preparation  
+This project integrates muliple global datasets from the World Bank, United Nations, and related sources covering economic, demographic, health, poverty, and energy indicators from 2000-2023. Data preparation steps included:  
+
+This project integrates multiple global datasets from the World Bank, United Nations, and related sources covering economic, demographic, health, poverty, and energy indicators from 2000–2023. Data preparation steps included:  
+
+- Cleaning and filtering country-level time series data
+- Harmonizing country identifiers across datasets
+- Reshaping datasets into tidy formats suitable for visualization
+- Aligning indicators across shared year ranges
+- Handling missing values and inconsistent temporal coverage
+- Accounting for differences in country size by computing population-weighted global life expectancy trends
+
+Country coverage varies across analyses due to differences in data availability by indicator and year.
+
+### Analysis Strategy
+The analysis emphasizes descriptive and exploratory methods rather than causal inference or prediction. Visual exploration is used to understand distributions, trends, and variability across countries and time, followed by results-driven visualizations that highlight key global development patterns. This approach allows for meaningful interpretation of multivariate relationships while avoiding overstatement of observational data.
+
+### Tools and Libraries
+- Python – primary programming language
+- pandas – data cleaning, transformation, merging, aggregation, and weighting
+- matplotlib & seaborn – static, publication-quality visualizations
+- plotly – interactive, user-driven exploratory visualizations and mini-dashboard components
+- Jupyter Notebook – reproducible environment combining code, visual output, and narrative markdown
+
+---
+
+## Visualization Approach
+## Design and Accessibility
+All visualizations are designed with clarity, perception, and accessibility as core priorities. In particular:
+- Color blind safe palettes (e.g., Viridis) are used throughout
+- Sufficient contrast is maintained for readability
+- Visuals do not rely on color alone to convey information; position, labels, and annotations are also used
+- Consistent scales, axes, and encodings support accurate cross-country and temporal comparison
+
+These choices ensure that the visualizations are interpretable by a wide audience and align with best practices in ethical data visualization.
+
+### Exploratory and Explanatory Visuals
+The notebook distinguishes between exploratory visualizations, which support open ended and user driven analysis, and explanatory visualizations, which are refined to communicate specific insights clearly. Interactive components built with Plotly are intentionally used to encourage exploration without overwhelming the narrative structure.
+
+### Narrative Structure
+Visualizations are embedded within a structured narrative that progresses from broad global trends to more focused relationships between economic capacity, life expectancy, poverty, population change, and renewable energy use. Each visualization is designed to serve a specific communicative purpose rather than functioning as a standalone chart.
+
+---
+
+## Key Takeaways
+- Economic capacity, poverty reduction, and life expectancy are strongly linked
+  - Countries with lower poverty rates tend to achieve higher life expectancy, with higher-income countries clustering at low poverty and high health outcomes
+- Economic growth supports health improvements but does not ensure uniform outcomes
+  - Countries with similar GDP per capita often exhibit markedly different life expectancy, highlighting heterogeneity in development pathways
+- Renewable electricity availability per capita generally increases with income, but adoption varies widely among countries at similar income levels, reflecting differences in policy, energy resources, and development priorities
+- Renewable energy is associated with broader development progress rather than acting as a direct driver of population health
+  - Higher life expectancy often coincides with greater renewable electricity availability, but the relationship is diffuse
+
+Overall, development trajectories are highly heterogeneous, underscoring the importance of examining economic, health, poverty, population, and energy indicators together rather than in isolation.
 
 ---
 
