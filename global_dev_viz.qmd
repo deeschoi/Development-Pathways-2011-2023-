@@ -1,5 +1,5 @@
 ---
-title: 'DATS 2102 - Final Project: Development Pathways (2011–2023): Poverty, Life Expectancy, Economic Capacity, and Renewable Electricity'
+title: 'Development Pathways (2011–2023): Poverty, Life Expectancy, Economic Capacity, and Renewable Electricity'
 author: "Daniel Choi"
 date: "December 15, 2025"
 format:
