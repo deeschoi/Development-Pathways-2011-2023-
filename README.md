@@ -11,7 +11,7 @@ This project explores global development patterns from 2000–2023 using publicl
 The analysis emphasizes visual exploration and interpretation rather than causal inference, using a combination of exploratory analysis, results driven visualizations, and an interactive mini dashboard. The primary goal is to communicate complex global trends clearly and effectively through well designed, theory informed data visualizations grounded in storytelling and visual perception principles.  
 
 ## Research Question
-How are poverty rates and life expectancy associated with economic capacity across countries over time, and how does renewable energy adoption vary across these development pathways?
+*How are poverty rates and life expectancy associated with economic capacity across countries over time, and how does renewable energy adoption vary across these development pathways?*
 
 ---
 
