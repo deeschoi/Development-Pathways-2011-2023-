@@ -85,11 +85,11 @@ Visualizations are embedded within a structured narrative that progresses from b
 ---
 
 ## Key Takeaways
-- **Economic capacity, poverty reduction, and life expectancy are strongly linked**, with higher-income countries clustering at low poverty and high health outcomes.
-- **Economic growth supports health improvements but does not ensure uniform outcomes**, as countries with similar GDP per capita often exhibit markedly different life expectancy.
-- **Renewable electricity availability per capita generally increases with income**, but adoption varies widely among countries at similar income levels.
-- **Renewable energy is associated with broader development progress rather than acting as a direct driver of population health**, with a positive but diffuse relationship to life expectancy.
-- **Overall development trajectories are highly heterogeneous**, reinforcing the importance of examining multiple indicators together.
+- **Economic capacity, poverty reduction, and life expectancy are strongly linked**, with higher-income countries clustering at low poverty and high health outcomes
+- **Economic growth supports health improvements but does not ensure uniform outcomes**, as countries with similar GDP per capita often exhibit markedly different life expectancy
+- **Renewable electricity availability per capita generally increases with income**, but adoption varies widely among countries at similar income levels
+- **Renewable energy is associated with broader development progress rather than acting as a direct driver of population health**, with a positive but diffuse relationship to life expectancy
+- **Overall development trajectories are highly heterogeneous**, reinforcing the importance of examining multiple indicators together
 
 ---
 
