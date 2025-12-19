@@ -6,6 +6,9 @@
     alt="animation_screenshot" 
     src="https://github.com/user-attachments/assets/eee73dc6-e6eb-4eab-9a7e-072f4f6d4aee" 
   />
+  <p><em>
+    Static snapshot shown above: View the full animated visualization in the interactive notebook or HTML output.
+  </em></p>
 </div>
 
 ## Project Overview
