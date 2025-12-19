@@ -14,7 +14,7 @@
 ## Project Overview
 This project explores global development patterns from 2000–2023 using publicly available data from the World Bank, United Nations, and related sources. It examines relationships between economic capacity, poverty, life expectancy, renewable energy consumption, and population change across countries and over time.
 
-The analysis emphasizes visual exploration and interpretation rather than causal inference, using a combination of exploratory analysis, results driven visualizations, and an interactive mini dashboard. The primary goal is to communicate complex global trends clearly and effectively through well designed, theory informed data visualizations grounded in storytelling and visual perception principles.  
+The analysis emphasizes visual exploration and interpretation rather than causal inference, using a combination of exploratory analysis, results driven visualizations, and an interactive mini dashboard. The primary goal is to communicate complex global trends clearly through well designed, theory informed data visualizations grounded in storytelling and visual perception principles.  
 
 ## Research Question
 *How are poverty rates and life expectancy associated with economic capacity across countries over time, and how does renewable energy adoption vary across these development pathways?*
@@ -51,6 +51,8 @@ This project uses publicly available international datasets from **Our World in 
 - Share of population living in extreme poverty (World Bank)
 - Modern renewable electricity consumption
 
+CSV files of each dataset can be found and downloaded from the `data` folder.
+
 ---
 
 ## How to Run
@@ -84,8 +86,6 @@ All visualizations are designed with clarity, perception, and accessibility as c
 - Consistent scales, axes, and encodings support accurate cross-country and temporal comparison
 
 These choices ensure that the visualizations are interpretable by a wide audience and align with best practices in ethical data visualization.
-
-The notebook intentionally combines exploratory and explanatory visualizations, using interactive elements to support user-driven exploration while maintaining a clear narrative structure.
 
 ### Narrative Structure
 Visualizations are embedded within a structured narrative that progresses from broad global trends to more focused relationships between economic capacity, life expectancy, poverty, population change, and renewable energy use. Each visualization is designed to serve a specific communicative purpose rather than functioning as a standalone chart.
