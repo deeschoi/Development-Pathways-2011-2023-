@@ -31,7 +31,7 @@ The analysis emphasizes visual exploration and interpretation rather than causal
 ---
 
 ## Tools and Libraries
-<div alig="center">
+<div align="center">
   <img width="150" alt="python" src="https://github.com/user-attachments/assets/d2f3e707-b20f-4770-a6ad-4ba4dad3ea95" />
   <img width="150" alt="pandas" src="https://github.com/user-attachments/assets/21494d12-c145-4750-bb10-4d37756b5fbe" />
   <img width="150" alt="plotly" src="https://github.com/user-attachments/assets/235e4d59-62a4-46f7-a2f8-c30c5d97c4e5" />
