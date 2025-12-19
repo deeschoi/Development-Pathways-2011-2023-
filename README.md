@@ -46,8 +46,7 @@ All figures and interactive components will render automatically.
 
 ## Methods and Tools
 ### Data Sources and Preparation  
-This project integrates muliple global datasets from the World Bank, United Nations, and related sources covering economic, demographic, health, poverty, and energy indicators from 2000-2023. Data preparation steps included:  
-
+To prepare for the analysis, the following steps were performed:
 - Cleaning and filtering country-level time series data
 - Harmonizing country identifiers across datasets
 - Reshaping datasets into tidy formats suitable for visualization
@@ -76,8 +75,7 @@ All visualizations are designed with clarity, perception, and accessibility as c
 
 These choices ensure that the visualizations are interpretable by a wide audience and align with best practices in ethical data visualization.
 
-### Exploratory and Explanatory Visuals
-The notebook distinguishes between exploratory visualizations, which support open ended and user driven analysis, and explanatory visualizations, which are refined to communicate specific insights clearly. Interactive components built with Plotly are intentionally used to encourage exploration without overwhelming the narrative structure.
+The notebook intentionally combines exploratory and explanatory visualizations, using interactive elements to support user-driven exploration while maintaining a clear narrative structure.
 
 ### Narrative Structure
 Visualizations are embedded within a structured narrative that progresses from broad global trends to more focused relationships between economic capacity, life expectancy, poverty, population change, and renewable energy use. Each visualization is designed to serve a specific communicative purpose rather than functioning as a standalone chart.
