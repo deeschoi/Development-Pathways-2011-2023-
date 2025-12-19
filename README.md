@@ -31,12 +31,14 @@ The analysis emphasizes visual exploration and interpretation rather than causal
 ---
 
 ## Tools and Libraries
-<a href="https://www.python.org"><img src="https://github.com/user-attachments/assets/b2208695-3b7f-4507-9c8d-02a14f07341d" width="150" height = "70" alt="Python" /></a>
-<a href="https://pandas.pydata.org"><img src="https://github.com/user-attachments/assets/38500205-8d85-4b46-8b2b-9222a24c611c" width="150" height = "70" alt="pandas" /></a>
-<a href="https://matplotlib.org"><img src="https://github.com/user-attachments/assets/06175adf-fa77-4969-abda-7b181667bb79" width="150" height = "70" alt="matplotlib" /></a>
-<a href="https://seaborn.pydata.org"><img src="https://github.com/user-attachments/assets/e090b466-3c57-4bc5-83c0-1048b7fc67f4" width="150" height = "70" alt="seaborn" /></a>
-<a href="https://plotly.com/python/"><img src="https://github.com/user-attachments/assets/7e7ccd3a-5667-46cc-8778-180396e01c29" width="150" height = "70" alt="Plotly" /></a>
-<a href = "https://jupyter.org/"><img src = "https://github.com/user-attachments/assets/7ed802c0-b5c3-4a27-89ec-f7bad3901830" width = "150" height = "70" alt = "Jupyter" /><a>
+<div align = "center">
+  <img width="150" alt="python" src="https://github.com/user-attachments/assets/d2f3e707-b20f-4770-a6ad-4ba4dad3ea95" />
+  <img width="150" alt="pandas" src="https://github.com/user-attachments/assets/21494d12-c145-4750-bb10-4d37756b5fbe" />
+  <img width="150" alt="plotly" src="https://github.com/user-attachments/assets/235e4d59-62a4-46f7-a2f8-c30c5d97c4e5" />
+  <img width="150" alt="matplotlib" src="https://github.com/user-attachments/assets/f16cc0f0-fc77-4106-a9d4-91d4ee31d80a" />
+  <img width="150" alt="seaborn" src="https://github.com/user-attachments/assets/92139ea8-da09-429e-90bb-7f96414300de" />
+  <img width="150" alt="jupyter" src="https://github.com/user-attachments/assets/8e3b56a7-34d1-4bad-a454-ad1f64930d0c" />
+</div>
 
 ---
 
