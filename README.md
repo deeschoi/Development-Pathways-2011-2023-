@@ -31,7 +31,7 @@ The analysis emphasizes visual exploration and interpretation rather than causal
 ---
 
 ## Data Sources
-This project uses publicly available international datasets from **Our World in Data**, which compiles and harmonizes data from institutions including the World Bank and the United Nations. All datasets were accessed in **December 2025**.
+This project uses publicly available international datasets from **Our World in Data**, which compiles and harmonizes data from institutions including the World Bank and the United Nations.
 
 - Population estimates and projections (UN World Population Prospects)
 - Life expectancy at birth (Human Mortality Database & UN WPP)  
@@ -63,11 +63,11 @@ To prepare for the analysis, the following steps were performed:
 Country coverage varies across analyses due to differences in data availability by indicator and year.
 
 ### Tools and Libraries
-- Python – primary programming language
-- pandas – data cleaning, transformation, merging, aggregation, and weighting
-- matplotlib & seaborn – static, publication-quality visualizations
-- plotly – interactive, user-driven exploratory visualizations and mini-dashboard components
-- Jupyter Notebook – reproducible environment combining code, visual output, and narrative markdown
+- Python: primary programming language
+- pandas: data cleaning, transformation, merging, aggregation, and weighting
+- matplotlib & seaborn: static, publication-quality visualizations
+- plotly: interactive, user-driven exploratory visualizations and mini-dashboard components
+- Jupyter Notebook: reproducible environment combining code, visual output, and narrative markdown
 
 ---
 
