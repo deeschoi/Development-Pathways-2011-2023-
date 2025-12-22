@@ -32,12 +32,24 @@ The analysis emphasizes visual exploration and interpretation rather than causal
 
 ## Tools and Libraries
 <div align="center">
-  <img width="150" alt="python" src="https://github.com/user-attachments/assets/d2f3e707-b20f-4770-a6ad-4ba4dad3ea95" />
-  <img width="150" alt="pandas" src="https://github.com/user-attachments/assets/21494d12-c145-4750-bb10-4d37756b5fbe" />
-  <img width="150" alt="plotly" src="https://github.com/user-attachments/assets/235e4d59-62a4-46f7-a2f8-c30c5d97c4e5" />
-  <img width="150" alt="matplotlib" src="https://github.com/user-attachments/assets/f16cc0f0-fc77-4106-a9d4-91d4ee31d80a" />
-  <img width="150" alt="seaborn" src="https://github.com/user-attachments/assets/92139ea8-da09-429e-90bb-7f96414300de" />
-  <img width="150" alt="jupyter" src="https://github.com/user-attachments/assets/8e3b56a7-34d1-4bad-a454-ad1f64930d0c" />
+  <a href="https://www.python.org/" target = "_blank">
+    <img width="150" alt="python" src="https://github.com/user-attachments/assets/d2f3e707-b20f-4770-a6ad-4ba4dad3ea95" />
+  </a>
+  <a href="https://pandas.pydata.org/" target="_blank">
+    <img width="150" alt="pandas" src="https://github.com/user-attachments/assets/21494d12-c145-4750-bb10-4d37756b5fbe" />
+  </a>
+  <a href="https://plotly.com/" target="_blank">
+    <img width="150" alt="plotly" src="https://github.com/user-attachments/assets/235e4d59-62a4-46f7-a2f8-c30c5d97c4e5" />
+  </a>
+  <a href="https://matplotlib.org/" target="_blank">
+    <img width="150" alt="matplotlib" src="https://github.com/user-attachments/assets/f16cc0f0-fc77-4106-a9d4-91d4ee31d80a" />
+  </a>
+  <a href="https://seaborn.pydata.org/" target="blank">
+    <img width="150" alt="seaborn" src="https://github.com/user-attachments/assets/92139ea8-da09-429e-90bb-7f96414300de" />
+  </a>
+  <a href="https://jupyter.org/" target="_blank">
+    <img width="150" alt="jupyter" src="https://github.com/user-attachments/assets/8e3b56a7-34d1-4bad-a454-ad1f64930d0c" />
+  </a>
 </div>
 
 ---
